@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class OwnerItem {
+public class Owner {
     private int ownerId;
     private String ownerName;
     private String ownerUrl;

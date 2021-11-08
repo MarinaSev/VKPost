@@ -11,12 +11,9 @@ public class Post {
     private boolean frendsOnly; //если запись была создана с опцией «Только для друзей».
     private int postNumber;
     private String postText;
-    private String imageUrl;
-    private String videoUrl;
-    private String audioUrl;
     private Repost repost;
     private View view;
-    private  CommentsText comment;
+    private CommentsText comment;
     private boolean letPost;
     private Copyright copyright;
     private Like like;

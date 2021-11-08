@@ -1,36 +1,47 @@
 package ru.netology.manager;
 
-import ru.netology.domain.CommentsText;
 import ru.netology.domain.Post;
 
 public class PostManager {
 
-    public void add(Post post) {
-        //какой-то код, добавляющий посты;
+    private Post[] post = new Post[0];
+
+    public void deliteByOwnerId (int ownerId) {
+        //какой-то код
     }
 
-    public void remove(Post post) {
-        //какой-то код, удаляющий посты;
+    public void deliteByPostId (int postId) {
+        //какой-то код
     }
 
-    public void addComment (CommentsText comment) {
-        //какой-то код, добавляющий комменты;
+    public Post[] searchByOwnerId (int ownerId) {
+        //какой-то код
+        return null;
     }
 
-    public void removeComment(CommentsText comment) {
-        //какой-то код, удаляющий комменты;
+    public Post[] searchByOwnersOnly (boolean isOwner) {
+        //какой-то код
+        return null;
     }
 
-    public void countComments () {
-        //какой-то код, считающий комменты;
+    public Post[] getPosts (int postsCountNumber) {
+        //какой-то код
+        return null;
     }
 
-    public void countLikes () {
-        //какой-то код, считающий лайки;
+    public Post[] searchByQuery (String query) {
+        ////какой-то код возвращает посты, соответствующие запросу
+        return null;
     }
 
-    public void countReposts () {
-        //какой-то код, считающий репосты;
+    public Post[] searchByDomain (String domain) {
+        //какой-то код вщзвращает посты по имени пользователя
+        return null;
+    }
+
+    public Post[] offset (int offset) {
+        //какой-то код что-то смещает
+        return null;
     }
 
 }

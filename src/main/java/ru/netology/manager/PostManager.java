@@ -6,42 +6,13 @@ public class PostManager {
 
     private Post[] post = new Post[0];
 
-    public void deliteByOwnerId (int ownerId) {
+    public void delitePost (int ownerId, int postId) {
         //какой-то код
     }
 
-    public void deliteByPostId (int postId) {
+    public Post[] searchPost (int ownerId, String domain, String query, boolean isOwner, int count, int offset) {
         //какой-то код
-    }
-
-    public Post[] searchByOwnerId (int ownerId) {
-        //какой-то код
+        //return post;
         return null;
     }
-
-    public Post[] searchByOwnersOnly (boolean isOwner) {
-        //какой-то код
-        return null;
-    }
-
-    public Post[] getPosts (int postsCountNumber) {
-        //какой-то код
-        return null;
-    }
-
-    public Post[] searchByQuery (String query) {
-        ////какой-то код возвращает посты, соответствующие запросу
-        return null;
-    }
-
-    public Post[] searchByDomain (String domain) {
-        //какой-то код вщзвращает посты по имени пользователя
-        return null;
-    }
-
-    public Post[] offset (int offset) {
-        //какой-то код что-то смещает
-        return null;
-    }
-
 }
